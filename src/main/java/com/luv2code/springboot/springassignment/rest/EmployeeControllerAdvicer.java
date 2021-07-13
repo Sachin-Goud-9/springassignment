@@ -1,9 +1,8 @@
-package com.luv2code.springboot.thymeleafdemo.rest;
+package com.luv2code.springboot.springassignment.rest;
 
-import com.luv2code.springboot.thymeleafdemo.exception.UserNotFoundException;
+import com.luv2code.springboot.springassignment.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 

@@ -1,10 +1,9 @@
-package com.luv2code.springboot.thymeleafdemo.rest;
+package com.luv2code.springboot.springassignment.rest;
 
-import com.luv2code.springboot.thymeleafdemo.entity.Employee;
-import com.luv2code.springboot.thymeleafdemo.entity.EmployeeDto;
-import com.luv2code.springboot.thymeleafdemo.exception.UserNotFoundException;
-import com.luv2code.springboot.thymeleafdemo.service.EmployeeService;
-import com.luv2code.springboot.thymeleafdemo.service.EmployeeServiceImpl;
+import com.luv2code.springboot.springassignment.entity.Employee;
+import com.luv2code.springboot.springassignment.entity.EmployeeDto;
+import com.luv2code.springboot.springassignment.exception.UserNotFoundException;
+import com.luv2code.springboot.springassignment.service.EmployeeService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -85,5 +84,8 @@ public class EmployeeRestController {
         employeeService.deleteEmployee(id);
         return "Deleted Employee with ID:"+id;
     }
-
+    @GetMapping("/error")
+    public void error(){
+        throw new UserNotFoundException("No proper mapping");
+    }
 }

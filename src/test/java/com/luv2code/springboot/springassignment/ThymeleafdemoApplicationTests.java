@@ -1,15 +1,14 @@
-package com.luv2code.springboot.thymeleafdemo;
+package com.luv2code.springboot.springassignment;
 
 
 
-import com.luv2code.springboot.thymeleafdemo.dao.EmployeeRepository;
-import com.luv2code.springboot.thymeleafdemo.entity.Employee;
-import com.luv2code.springboot.thymeleafdemo.service.EmployeeService;
+import com.luv2code.springboot.springassignment.dao.EmployeeRepository;
+import com.luv2code.springboot.springassignment.entity.Employee;
+import com.luv2code.springboot.springassignment.service.EmployeeService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.junit.jupiter.api.Test;
 
 
 import java.util.stream.Collectors;

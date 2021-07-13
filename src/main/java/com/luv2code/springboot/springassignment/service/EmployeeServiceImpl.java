@@ -1,9 +1,8 @@
-package com.luv2code.springboot.thymeleafdemo.service;
+package com.luv2code.springboot.springassignment.service;
 
-import com.luv2code.springboot.thymeleafdemo.dao.EmployeeRepository;
-import com.luv2code.springboot.thymeleafdemo.entity.Employee;
-import com.luv2code.springboot.thymeleafdemo.exception.UserNotFoundException;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
+import com.luv2code.springboot.springassignment.dao.EmployeeRepository;
+import com.luv2code.springboot.springassignment.entity.Employee;
+import com.luv2code.springboot.springassignment.exception.UserNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

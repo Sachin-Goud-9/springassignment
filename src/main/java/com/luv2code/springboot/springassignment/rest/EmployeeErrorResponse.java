@@ -1,4 +1,4 @@
-package com.luv2code.springboot.thymeleafdemo.rest;
+package com.luv2code.springboot.springassignment.rest;
 
 
 public class EmployeeErrorResponse {

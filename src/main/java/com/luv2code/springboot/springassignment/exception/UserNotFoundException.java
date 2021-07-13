@@ -1,4 +1,4 @@
-package com.luv2code.springboot.thymeleafdemo.exception;
+package com.luv2code.springboot.springassignment.exception;
 
 public class    UserNotFoundException extends RuntimeException {
 

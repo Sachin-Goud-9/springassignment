@@ -1,20 +1,16 @@
-package com.luv2code.springboot.thymeleafdemo.controller;
+package com.luv2code.springboot.springassignment.controller;
 
 import java.util.List;
 
 import javax.validation.Valid;
 
-import com.luv2code.springboot.thymeleafdemo.service.EmployeeServiceImpl;
+import com.luv2code.springboot.springassignment.service.EmployeeServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
-import com.luv2code.springboot.thymeleafdemo.entity.Employee;
+import com.luv2code.springboot.springassignment.entity.Employee;
 
 @Controller
 @RequestMapping("/employees")
